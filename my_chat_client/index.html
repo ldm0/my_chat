@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>my_chat_client</title>
+        <link rel="stylesheet" href="./index.css">
+    </head>
+
+    <body style="margin:0;padding:0;overflow-y:hidden;font-family: Arial, Georgia, Arial, Consolas;">
+        <script type="text/javascript" src="./message.js"> </script>
+        <div class="msgs" id="msgs">
+            <p class="msg_myself"><span>自己: 恰饭了吗？</span></p>
+            <p class="msg_others"><span>别人: 还没呢，你呢？</span></p>
+        </div>
+        <div class="msg_input">
+            <div class="msg_input_words_div">
+                <textarea class="msg_input_words" id="msg_input_words"></textarea>
+            </div>
+            <div class="msg_input_send_button_div">
+                <input type="button" value="发送" class="msg_input_send_button" id="msg_input_send_button">
+            </div>
+        </div>
+    </body>
+</html>
