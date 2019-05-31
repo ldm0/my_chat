@@ -10,7 +10,7 @@ Server is built for Linux.
 
 Client is not cross platform(Windows only), due to Node.js's C++ addon usage.
 
-### Component
+### Components
 
   ##### my_chat_client
   Client uses electron 5.0.2, and only provides user interface.
